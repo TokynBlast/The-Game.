@@ -4,8 +4,6 @@ puts("Guess the number! 1-6")
 
 guess = gets.chomp()
 
-
-
 answer = rand(1..6)
 
 if guess == answer:
