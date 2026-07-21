@@ -1,4 +1,4 @@
-echo "Guess the number! 1-6"
+echo "Guess the number! 1-6\n"
 
 read guess
 
