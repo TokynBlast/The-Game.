@@ -1,4 +1,0 @@
-# Languages used
-*.md linguist-language=Other
-*.yml linguist-language=Other
-*.json linguist-language=JavaScript
